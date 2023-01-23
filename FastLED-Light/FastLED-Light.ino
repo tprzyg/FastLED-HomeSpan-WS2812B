@@ -81,7 +81,7 @@ void setup() {
   FastLED.show();
 
   homeSpan.setStatusPin(LED_BUILTIN);
-  homeSpan.begin(Category::Lighting, "HomeSpan Light");
+  homeSpan.begin(Category::Lighting, "WS2812B Color LED Light");
 
   new SpanAccessory();
   // BEGINING of LED Ribbon #1 (there's possibilioty to create HomeSpan light objects for multiple ribbons)
